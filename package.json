@@ -1,0 +1,27 @@
+{
+  "name": "skills",
+  "version": "1.0.0",
+  "description": "Claude Code agent skills — latest-npm-deps: query npm registry for latest package versions before installing",
+  "files": [
+    "skills/latest-npm-deps"
+  ],
+  "keywords": [
+    "claude-code",
+    "skill",
+    "npm",
+    "dependencies",
+    "version-management"
+  ],
+  "author": "onvo",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "type": "module",
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "husky": "^9.1.7"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
+}
